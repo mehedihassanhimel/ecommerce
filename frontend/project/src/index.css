@@ -1,0 +1,532 @@
+
+table, th, td {
+  border: 1px solid #91143e;
+  border-collapse: collapse;
+  
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: 	#40e0d0;
+
+}
+
+
+
+.navbar {
+  /* width: 100%;
+  top: 0;
+  overflow: hidden; */
+  /* position: fixed; */
+  display: flex;
+  align-items: center;
+  
+  background: #91143e;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 1px 20px;
+  margin: 16px 50;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=date], select {
+  width: 100%;
+  padding: 1px 20px;
+  margin: 16px 50;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+span {
+color: red;
+}
+/* button {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* input[type=submit]:hover {
+  background-color: #45a049;
+} */
+
+
+
+#tableDesign {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tableDesign  td, #tableDesign  th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tableDesign  tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#tableDesign  tr:hover {
+  background-color: #ddd;
+}
+
+/* Main Table Start */
+
+#tableDesign  th {
+  box-shadow: 0 12px 23px 0 rgba(0, 0, 0, 100);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #31B0D5;
+  color: black;
+  border-radius: 10px
+}
+#tableDesign th:hover{
+  box-shadow: 0 9px 11px 0 rgba(0, 0, 0, 100);
+  background-color: #b1a1a1;
+
+}
+
+/* Main Table end */
+
+
+/* #tableDesign  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #004EA2;
+  color: white;
+} */
+
+/* Dashboard card */
+.numbar{
+  margin: 150px;
+  font-size: 35px;
+}
+
+
+
+/* Main card start */
+
+.card {
+  box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 100);
+  padding: 16px;
+  text-align: center;
+  background-color: #b1a1a1;
+}
+.card a{
+ text-decoration: none;
+
+}
+
+.card:hover{
+  background-color:#ddd ;
+
+}
+
+/* Main card end */
+
+
+
+.card_1{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #2FDD9B;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+.card_1:hover{
+  background-color: #20c586;
+}
+.card_2{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color:#2FC8DD;
+    color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+
+}
+
+.card_2:hover{
+  background-color: #20b2c5;
+}
+.card_3{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color:#FFC300;
+    color: #F7F9F9;;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+.card_3:hover{
+  background-color: #e6b000;
+}
+.card_4{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius:  4px;
+  background-color: #ff471a;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+/* #8533ff */
+.card_4:hover{
+  background-color: #ff3300;
+}
+.card_5{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #751aff;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+.card_5:hover{
+  background-color: #6600ff;
+}
+
+.card_6{
+  box-shadow: 8px 8px #f5f5ef;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #0066ff;
+  color: #F7F9F9;
+  width: 200px;
+  font-size: 25px;
+  margin: 5px;
+}
+
+.card_6:hover{
+  background-color: #005ce6;
+}
+
+/* Header button */
+/* .button {
+
+  background-color:#0583F2;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 3px;
+} */
+
+
+
+
+
+
+
+.button {
+  background-color: #91143e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #f44336; 
+  color: white; 
+  border: 2px solid #f44336;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+.button2 {
+  background-color: #5b7d88; 
+  color: white; 
+  border: 2px solid #2b4852;
+  border-radius: 10px;
+}
+
+.button2:hover {
+  background-color: white;
+  color: black;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: #555555;
+  color: white;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+/* Login start */
+.loginForm input[type=text], input[type=password]{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.containerloginForm {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.loginBtn {
+  background-color: #91143e;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width:100%;
+}
+
+.loginBtn:hover {
+  background-color: #555555;
+  color: white;
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Login end */
+
+/* ButtonDetails start */
+.buttonDetails1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.buttonDetails1:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.buttonDetails2 {
+  background-color: #3071A9;
+  color: white;
+  padding: 1px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.buttonDetails2:hover {
+  background-color: #428bca;
+}
+
+.buttonDetails3 {
+  background-color: #91143e;
+  color: white;
+  padding: 1px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.buttonDetails3:hover {
+  background-color: #91143e;
+}
+
+
+
+.buttonDetails4 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.buttonDetails4:hover {
+  background-color: #77ac79;
+}
+
+
+
+.buttonDetails5 {
+  background-color: red;
+  color: white;
+  padding: 1px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.buttonDetails5:hover {
+  background-color: rgb(230, 103, 103);
+}
+/* ButtonDetails end*/
+
+/* Add start */
+.add{
+  background-color: #aa1125;
+  color: wheat;
+  padding: 15px 40px;
+  text-align: center;
+  
+  display: inline-block;
+  border-radius: 15px;
+  margin: 15px;
+}
+.add:hover{
+  background-color: #4CAF50;
+}
+/* Add end */
+
+/* Login button start */
+.login{
+  background-color: #4CAF50;
+  color: black;
+  padding: 1px 23px;
+  text-align: center;
+  
+  display: inline-block;
+  margin: 15px;
+}
+.login:hover{
+  background-color: cyan;
+}
+/* Login button end */
+
+
+
+/* Footer start */
+
+/* .footer {
+  width: 99%;
+  padding: 0 10px;
+  background-color:#004EA2;
+  color: white;
+  padding: 99px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 25px 5px;
+
+} */
+/* Footer end */
+
+
+
+/* #borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(border.png);
+  border-image-slice: 30;
+  } */
